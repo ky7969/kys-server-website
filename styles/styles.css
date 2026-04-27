@@ -1,0 +1,35 @@
+p,dl {
+    color: white;
+    line-height: 1.5;
+}
+img {
+    max-width: 75%;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+}
+ul.nav  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #29a19c;
+    display: flex;
+}
+ul.nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+ul.nav li img   {
+    max-width: 50%;
+}
+ul.nav li a:hover {
+    background-color: #207975;
+}
+body {
+    background-color: #222831;
+    font-family: "Verdana", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
