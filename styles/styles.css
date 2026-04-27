@@ -1,17 +1,21 @@
-p,dl {
+*   {
+    margin: 0;
+    padding: 0;
+}
+p,dl,dd {
     color: white;
     line-height: 1.5;
+    padding: 1rem 2rem;
 }
 img {
     max-width: 75%;
 }
 h1,h2,h3,h4,h5,h6 {
     color: white;
+    padding: 1rem;
 }
 ul.nav  {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color: #29a19c;
     display: flex;
 }
@@ -19,10 +23,11 @@ ul.nav li a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 1rem 1rem;
 }
 ul.nav li img   {
-    max-width: 50%;
+    max-width: 25%;
+    padding: .5rem;
 }
 ul.nav li a:hover {
     background-color: #207975;
@@ -30,6 +35,4 @@ ul.nav li a:hover {
 body {
     background-color: #222831;
     font-family: "Verdana", "Arial", sans-serif;
-    margin: 0;
-    padding: 0;
 }
