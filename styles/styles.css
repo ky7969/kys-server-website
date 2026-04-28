@@ -7,6 +7,10 @@ p,dl,dd {
     line-height: 1.5;
     padding: 1rem 2rem;
 }
+a   {
+    text-decoration: none;
+    color: #29a19c;
+}
 img {
     max-width: 75%;
 }
