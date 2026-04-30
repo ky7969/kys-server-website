@@ -7,18 +7,18 @@ dl,dd,p {
     line-height: 1.5;
     padding: 0 1rem;
     font-weight: bold;
-    strong
 }
 dd,p  {
     color: lightgray;
     font-weight: normal;
 }
-a   {
+dd a   {
+    display: inline-block;
     text-decoration: none;
-    color: #29a19c;
-    padding: 1rem;
-    border: 1px solid white;
-    border-radius: 5px;
+    color: white;
+    padding: .5rem;
+    border-radius: .25rem;
+    background-color: #29a19c;
 }
 img {
     max-width: 75%;
@@ -39,8 +39,6 @@ ul.nav li a {
     padding: 0 1rem;
     height: 100%;
     align-items: center;
-    border-style: none;
-    border-radius: 0;
 }
 ul.nav li img   {
     padding: .6rem;
