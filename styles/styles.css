@@ -50,7 +50,7 @@ ul.nav li img   {
     padding: .6rem;
     max-width: 2rem;
 }
-ul.nav li a:hover, a.button:hover  {
+ul.nav li a:hover, a.isobutton:hover  {
     background-color: #207975;
 }
 body {
