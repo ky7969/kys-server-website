@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+html,body   {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
 dl,dd,p {
     color: white;
     line-height: 1.5;
@@ -12,7 +18,7 @@ dd,p  {
     color: lightgray;
     font-weight: normal;
 }
-dd a   {
+dd a, a.button   {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -44,7 +50,7 @@ ul.nav li img   {
     padding: .6rem;
     max-width: 2rem;
 }
-ul.nav li a:hover {
+ul.nav li a:hover, a.button:hover  {
     background-color: #207975;
 }
 body {
@@ -53,10 +59,23 @@ body {
 }
 code    {
     display: inline-block;
-    max-width: auto;
     background-color: black;
     color: #29a19c;
     font-size: 1.25rem;
     border: 1px solid #207975;
     padding: .5rem;
+}
+iframe  {
+    display: block;
+    border-style: none;
+    width: 100%;
+    height: 100%;
+}
+div.map {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+div.isobutton {
+    margin: 1rem;
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ky's Server Home</title>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <ul class="nav">
+      <li><img src="../assets/img/main/logo.png" alt="Ky's Server Logo"/></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../vanilla.html">Vanilla SMP</a></li>
+      <li><a href="../create.html">Create SMP</a></li>
+      <li><a href="../map.html">Maps</a></li>
+    </ul>
+  </div>
+</header>
+<div class="map">
+<iframe id="map" src="http://map.kys-server.com:1111" title="An interactive map of Ky's Create Server" allow="fullscreen"></iframe>
+</div>
+<script>
+  const map = document.getElementById("map");
+  if (map.requestFullscreen)  {
+    map.requestFullscreen();
+  }
+</script>
+</body>
+</html>
